@@ -1,0 +1,17 @@
+.container__content--home {
+  position: absolute;
+  display: flex;
+  height: 77vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.content__btn--future--item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 316px;
+  height: 100px;
+  background-color: #1f2b6c;
+}

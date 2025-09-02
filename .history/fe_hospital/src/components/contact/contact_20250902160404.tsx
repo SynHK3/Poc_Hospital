@@ -1,0 +1,58 @@
+import "./contact.css";
+
+import { BiPhoneCall } from "react-icons/bi";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { LuMail } from "react-icons/lu";
+import { BsClock } from "react-icons/bs";
+
+export default function Contact() {
+  return (
+    <div className="container__contact">
+      <div className="container__layout--contact">
+        <div className="content__contact--headline">
+          <h6>GET IN TOUCH</h6>
+          <h1>Contact</h1>
+        </div>
+
+        <ul className="content__list--contact">
+          <li>
+            <div className="contact--item">
+              <BiPhoneCall className="contact__item--icon"></BiPhoneCall>
+              <h1>EMERGENCY</h1>
+
+              <h3 style={{ visibility: "hidden" }}>dnx@gmil.com</h3>
+              <p>(+254) 717 783 146</p>
+            </div>
+          </li>
+          <li className="container__contact--item--location">
+            <div className="contact--item">
+              <MdOutlineLocationOn className="contact__item--icon"></MdOutlineLocationOn>
+              <h1>LOCATION</h1>
+
+              <p>0123 Some place</p>
+              <p>9876 Some country</p>
+            </div>
+          </li>
+          <li>
+            <div className="contact--item">
+              <LuMail className="contact__item--icon"></LuMail>
+              <h1>EMAIL</h1>
+
+              <p>dnx@gmil.com</p>
+              <p>medin@gmail.com</p>
+            </div>
+          </li>
+          <li>
+            <div className="contact--item">
+              <BsClock className="contact__item--icon"></BsClock>
+              <h1 className="headline--item">WORKING HOURS</h1>
+
+              <p>Mon-Sat 09:00-20:00</p>
+              <p>Sunday Emergency only</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}

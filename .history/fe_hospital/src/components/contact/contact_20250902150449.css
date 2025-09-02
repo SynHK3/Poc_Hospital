@@ -1,0 +1,10 @@
+.container__contact {
+  display: flex;
+  width: 100%;
+}
+
+.container__layout--contact {
+  width: 1100px;
+  height: 363px;
+  background-color: blue;
+}

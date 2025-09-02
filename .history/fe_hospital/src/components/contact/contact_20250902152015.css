@@ -1,0 +1,21 @@
+.container__contact {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container__layout--contact {
+  width: 1100px;
+  height: 363px;
+  background-color: blue;
+}
+
+.content__list--contact {
+  display: flex;
+}
+
+.contact--item {
+  width: 233px;
+  height: 233px;
+  background-color: #bfd2f8;
+}
