@@ -1,0 +1,162 @@
+.container__content--appointment {
+  width: 100%;
+  height: auto;
+}
+
+.content__banner--appointment {
+  width: 100%;
+  height: 250px;
+  background-image: url("./images/Content__Header__Appointment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content--form--appointment {
+  display: flex;
+  margin-top: 37px;
+  width: 100%;
+  height: 650px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.layout__content--submit--form--appointment {
+  display: flex;
+  width: 1102px;
+  height: 650px;
+}
+
+/* CSS Form Appointment */
+
+.container__form--submit--appointment {
+  width: 50%;
+  height: 650px;
+}
+.form__title {
+  color: #1f2b6c;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.form__description {
+  margin-top: 20px;
+}
+
+.form__appointment {
+  margin-top: 30px;
+}
+
+.form__group {
+  display: flex;
+}
+
+.form__input,
+.form__select {
+  width: 100%;
+  height: 60px;
+  background-color: #1f2b6c;
+  border: 1px solid #bfd2f8;
+  color: white;
+  font-size: 1rem;
+}
+
+/* .form__select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="white"><path d="M7.247 11.14l-4.796-5.48A1 1 0 013.247 4H12.75a1 1 0 01.796 1.66l-4.796 5.48a1 1 0 01-1.594 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 12px;
+} */
+
+.form__textarea {
+  width: 100%;
+  height: 158px;
+  resize: vertical;
+  background-color: #1f2b6c;
+}
+
+.btn__submit--appointment {
+  margin-top: -10px;
+  width: 100%;
+  height: 60px;
+  background-color: #bfd2f8;
+  color: #1f2b6c;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* End Form Appoint Ment */
+
+/* Start Shedule Appoinment */
+
+.container__shedule--appointment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 650px;
+  background-color: #1f2b6c;
+}
+
+.shedule__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+
+  text-align: center;
+  color: #bfd2f8;
+}
+
+.shedule__list {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* khoảng cách giữa các item */
+}
+
+.shedule__item {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+}
+
+.shedule__item .day {
+  flex: 1;
+  text-align: left;
+}
+
+.shedule__item .line--day--time {
+  width: 20px; /* cố định 10px */
+  height: 2px;
+  background-color: #bfd2f8;
+  margin: 0 8px;
+}
+
+.shedule__item .time {
+  flex: 1;
+  text-align: right;
+}
+
+.shedule__line {
+  width: 331px;
+  height: 2px;
+  background-color: #bfd2f8;
+}
+
+/* Icon contact */
+.shedule__info--contact--item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.icon__contact--item {
+  font-size: 60px;
+}
+
+/* End Shedule Appointment */

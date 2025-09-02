@@ -1,0 +1,171 @@
+.container__content--appointment {
+  width: 100%;
+  height: auto;
+}
+
+.content__banner--appointment {
+  width: 100%;
+  height: 250px;
+  background-image: url("./images/Content__Header__Appointment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content--form--appointment {
+  display: flex;
+  margin-top: 37px;
+  width: 100%;
+  height: 650px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.layout__content--submit--form--appointment {
+  display: flex;
+  width: 1102px;
+  height: 650px;
+  background-color: green;
+}
+
+/* CSS Form Appointment */
+
+.container__form--submit--appointment {
+  width: 50%;
+  height: 650px;
+  background-color: red;
+}
+.form__title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.form__description {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.form__appointment {
+  margin-top: 30px;
+}
+
+.form__group {
+  display: flex;
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+  width: 100%;
+
+  background-color: #34495e;
+
+  border: 1px solid #bfd2f8;
+  color: white;
+  font-size: 1rem;
+}
+
+.form__select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="white"><path d="M7.247 11.14l-4.796-5.48A1 1 0 013.247 4H12.75a1 1 0 01.796 1.66l-4.796 5.48a1 1 0 01-1.594 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 12px;
+}
+
+.form__textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.form__submit {
+  width: 100%;
+  height: 50px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* End Form Appoint Ment */
+
+/* Start Shedule Appoinment */
+
+.container__shedule--appointment {
+  width: 50%;
+  height: 650px;
+  background-color: blue;
+}
+
+.shedule__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.shedule__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shedule__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shedule__item .day {
+  font-weight: bold;
+  flex: 1;
+}
+
+.shedule__item .time {
+  flex: 1;
+  text-align: right;
+  position: relative;
+}
+
+.shedule__item .time::before {
+  content: "—";
+  margin-right: 15px;
+  color: #f7f7f7;
+}
+
+.shedule__divider {
+  border: 0;
+  height: 1px;
+  background-color: #f7f7f7;
+  margin: 40px 0;
+}
+
+.emergency__contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.emergency__icon {
+  font-size: 2rem;
+  padding: 10px;
+  background-color: #34495e;
+  border-radius: 50%;
+}
+
+.emergency__label {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.emergency__number {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* End Shedule Appointment */

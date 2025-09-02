@@ -1,0 +1,20 @@
+.container__content--appointment {
+  width: 100%;
+  /* height: 30vh; */
+  background-color: red;
+}
+
+.content__banner--appointment {
+  width: 100%;
+  height: 250px;
+  background-image: url("./images/Content__Header__Appointment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.layout__content--appointment {
+  width: 100%;
+  height: 30vh;
+  background-color: blue;
+}
